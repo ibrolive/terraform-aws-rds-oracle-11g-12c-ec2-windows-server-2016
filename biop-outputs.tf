@@ -58,22 +58,22 @@ output "biop_db_instance_port" {
   value       = module.biop-db.biop_db_instance_port
 }
 
-output "this_db_subnet_group_id" {
+output "biop_db_subnet_group_id" {
   description = "The db subnet group name"
-  value       = module.biop-db.this_db_subnet_group_id
+  value       = module.biop-db.biop_db_subnet_group_id
 }
 
-output "this_db_subnet_group_arn" {
+output "biop_db_subnet_group_arn" {
   description = "The ARN of the db subnet group"
-  value       = module.biop-db.this_db_subnet_group_arn
+  value       = module.biop-db.biop_db_subnet_group_arn
 }
 
-output "this_db_parameter_group_id" {
+output "biop_db_parameter_group_id" {
   description = "The db parameter group id"
-  value       = module.biop-db.this_db_parameter_group_id
+  value       = module.biop-db.biop_db_parameter_group_id
 }
 
-output "this_db_parameter_group_arn" {
+output "biop_db_parameter_group_arn" {
   description = "The ARN of the db parameter group"
-  value       = module.biop-db.this_db_parameter_group_arn
+  value       = module.biop-db.biop_db_parameter_group_arn
 }

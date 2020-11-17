@@ -58,22 +58,22 @@ output "nbsp_db_instance_port" {
   value       = module.nbsp-db.nbsp_db_instance_port
 }
 
-output "this_db_subnet_group_id" {
+output "nbsp_db_subnet_group_id" {
   description = "The db subnet group name"
-  value       = module.nbsp-db.this_db_subnet_group_id
+  value       = module.nbsp-db.nbsp_db_subnet_group_id
 }
 
-output "this_db_subnet_group_arn" {
+output "nbsp_db_subnet_group_arn" {
   description = "The ARN of the db subnet group"
-  value       = module.nbsp-db.this_db_subnet_group_arn
+  value       = module.nbsp-db.nbsp_db_subnet_group_arn
 }
 
-output "this_db_parameter_group_id" {
+output "nbsp_db_parameter_group_id" {
   description = "The db parameter group id"
-  value       = module.nbsp-db.this_db_parameter_group_id
+  value       = module.nbsp-db.nbsp_db_parameter_group_id
 }
 
-output "this_db_parameter_group_arn" {
+output "nbsp_db_parameter_group_arn" {
   description = "The ARN of the db parameter group"
-  value       = module.nbsp-db.this_db_parameter_group_arn
+  value       = module.nbsp-db.nbsp_db_parameter_group_arn
 }
